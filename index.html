@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="loginBox">
+            <h1 style="padding-bottom: 40px; color: white;" class="title">Dasturga kirish uchun login va parol kiriting!</h1>
+
+            <div class="inputBox">
+                <label  style="color: white;" class="Id" for="modmeId">Id</label>
+                <input class="id-mars" style="text-align: center;" type="text" id="modmeId" placeholder="Enter Modme ID">
+            </div>
+
+            <div class="inputBox">
+                <label  style="color: white;"  class="Id" for="password">Password</label>
+                <input  class="id-mars" style="text-align: center;" type="password" id="password" placeholder="Enter Password">
+            </div>
+
+            <div class="inputBox">
+                <button class="but" onclick="login()">Sign up</button>
+            </div>
+
+            <div id="message"></div>
+
+ 
+        
+            <div class="container">
+                <h1 style="text-align: center; color: white;" class="title">Komment kiriting</h1>
+        
+                <div class="inputBox">
+                    <input class="id-mars" type="text" id="comment" placeholder="Enter Comment">
+                </div>
+        
+                <div class="inputBox">
+                    <button class="but" onclick="addComment()">Comment</button>
+                </div>
+        
+                <div style="text-align: center ; color: white;" class="comments" id="commentsContainer">
+                </div>
+            </div>
+    
+
+        </div>
+    </div>
+    
+
+
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>

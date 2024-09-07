@@ -1,0 +1,72 @@
+.Id{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inputBox{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.id-mars{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+
+.but{
+    background-color: darkgrey;
+    color: white;
+    border: 1px white;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    transition: 1s;
+}
+
+.but:hover{
+    background-color: black;
+    color: white;
+    border: 1px black;
+    cursor: pointer;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #d00b0b, #2b0cdc);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+
+ 
